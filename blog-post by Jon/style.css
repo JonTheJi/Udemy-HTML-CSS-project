@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  position: relative;
+}
+
+h1 {
+  color: rgb(236, 127, 196);
+  margin-bottom: 20px;
+}
+
+h2, h4 {
+  color: rgb(39, 133, 184);
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.maintext {
+  text-align: justify;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+#autor {
+  font-size: 22px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.blog-post {
+
+  float: left;
+  width: 75%;
+  padding-right: 30px;
+  position: relative;
+  line-height: 150%;
+}
+.other-post {
+  background-color: #adb012;
+  width: 25%;
+  float: left;
+}
+
+.author-box {
+  border-top: 5px solid rgb(196, 59, 209);
+  padding-top: 20px;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.blog-post img {
+  height: 100px;
+  width: auto;
+}
+
+.date {
+  position: absolute;
+  top:20px;
+  right: 30px;
+}
